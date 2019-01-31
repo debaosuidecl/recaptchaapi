@@ -6,9 +6,49 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url("./Images/womancomputer.jpeg") no-repeat 100%;
+  background-size: cover;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.captcha {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  /* background: green; */
+}
+.g-recaptcha {
+  transform: scale(0.87);
+  -webkit-transform: scale(0.87);
+  transform-origin: 0 0;
+  -webkit-transform-origin: 0 0;
+}
+@media (max-width: 500px) {
+  .g-recaptcha {
+    transform: scale(0.77);
+    -webkit-transform: scale(0.77);
+    transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+  }
+}
+@media (max-width: 440px) {
+  .g-recaptcha {
+    transform: scale(0.67);
+    -webkit-transform: scale(0.67);
+    transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+  }
+}
+@media (max-width: 400px) {
+  .g-recaptcha {
+    transform: scale(0.57);
+    -webkit-transform: scale(0.57);
+    transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+  }
 }

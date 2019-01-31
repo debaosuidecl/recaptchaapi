@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script");
+@import url("https://fonts.googleapis.com/css?family=Archivo+Narrow");
+
+.LeftText {
+  font-size: 30px;
+  color: #444;
+  text-align: center;
+  /* padding-left: 120px; */
+  box-sizing: border-box;
+
+  /* width: 100%; */
+  /* flex-flow: column; */
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  /* margin-right: -40px; */
+}
+.FormContainer {
+  min-width: 350px;
+}
+.LeftText div {
+  border-bottom: 3px solid white;
+  padding-left: 13px;
+  width: 80%;
+  margin: auto;
+}
+.LeftText div h1 {
+  font-family: ubuntu;
+  font-size: 44px;
+}
+.LeftText div h4 {
+  font-family: ubuntu;
+  font-size: 34px;
+  margin: 0;
+  padding: 0;
+}
+@media (min-width: 800px) {
+  .Container {
+    width: 90%;
+  }
+  .Row {
+    /* min-width: 900px; */
+    /* width: 95%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  .Column {
+    /* min-width: 300px; */
+    /* height: 100%; */
+  }
+  .FormContainer {
+    min-width: 500px;
+    width: 100%;
+  }
+  .LeftText {
+    font-size: 30px;
+    color: #444;
+    height: 100%;
+    padding-left: 120px;
+    box-sizing: border-box;
+
+    /* width: 100%; */
+    flex-flow: column;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    margin-right: -40px;
+  }
+  .LeftText div {
+    border-left: 3px solid #444;
+    border-bottom: none;
+    padding-left: 13px;
+    margin-right: 38px;
+  }
+  .LeftText div h1 {
+    font-family: ubuntu;
+    font-size: 74px;
+  }
+  .LeftText div h4 {
+    font-family: ubuntu;
+    font-size: 44px;
+    margin: 0;
+    padding: 0;
+  }
+}
